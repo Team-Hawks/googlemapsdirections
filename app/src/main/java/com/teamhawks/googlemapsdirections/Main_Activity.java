@@ -64,7 +64,6 @@ public class Main_Activity extends AppCompatActivity implements OnMapReadyCallba
 
     @Override
     public void onTaskDone(Object... values){
-        //note about @overrise - changed to refactor or whtv first option was
         if (currentPolyline != null)
             currentPolyline.remove();
         currentPolyline=map.addPolyline((PolylineOptions) values[0]);
