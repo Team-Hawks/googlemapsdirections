@@ -15,7 +15,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.Polyline;
 import com.google.android.gms.maps.model.PolylineOptions;
 
-public class Main_Activity extends AppCompatActivity implements OnMapReadyCallback {
+public class Main_Activity extends AppCompatActivity implements OnMapReadyCallback, TaskLoadedCallback {
 
     GoogleMap map;
     Button btnGetDirection;
